@@ -1,0 +1,38 @@
+/*Animal card styles
+    *totalContent:apply to webpage border
+    *head:apply to heading font
+    *image:apply to image size
+    *content:apply to  text content border
+    *attribute:apply to text content font
+*/
+
+main {
+
+    max-width: 500px;
+    max-height: 800px;
+    padding:2% 1px 10px 10px ;
+    margin: 20px auto;
+    text-align:left;
+    border-radius: 2% 2% 2% 2%;
+    border-width: thick;
+    box-shadow:4px 4px 6px 2px grey;
+}
+.image {
+    max-width:440px;
+    margin: 0 0;
+    padding:0px;
+}
+
+#content {
+    display: inline-block;
+    border-radius: 2% 2% 2% 2%;
+    border-width: thick;
+
+    box-shadow:0px 0px 4px 1px grey;
+    max-width:440px;
+    margin: 20px 0px;
+    padding:10px;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-size: 0.9em;
+    color:black;
+}
